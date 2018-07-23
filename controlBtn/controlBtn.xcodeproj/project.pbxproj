@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8224C9A035132496DBA4B518 /* libPods-controlBtn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF19A3FF816D82492AFFDDD /* libPods-controlBtn.a */; };
+		842C13E28EC402B8F1FA8EB5 /* libPods-controlBtnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF637AB05A2FB8C550F7B15 /* libPods-controlBtnTests.a */; };
 		AC3100DF1E1020FD00D71029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3100DE1E1020FD00D71029 /* main.m */; };
 		AC3100E21E1020FD00D71029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3100E11E1020FD00D71029 /* AppDelegate.m */; };
 		AC3100E51E1020FD00D71029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3100E41E1020FD00D71029 /* ViewController.m */; };
@@ -29,6 +31,7 @@
 		AC31013C1E103B2C00D71029 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31012E1E103B2C00D71029 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		AC31013D1E103B2C00D71029 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3101301E103B2C00D71029 /* View+MASAdditions.m */; };
 		AC31013E1E103B2C00D71029 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3101331E103B2C00D71029 /* ViewController+MASAdditions.m */; };
+		AC424A5D4E69CA39AEB83E7E /* libPods-controlBtnUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE8BB6139EB945E11F33351 /* libPods-controlBtnUITests.a */; };
 		ACD397A31E138A7C004ED601 /* HMVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD397A21E138A7C004ED601 /* HMVolumeView.m */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		338A3D5520E4652822DAC779 /* Pods-controlBtn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-controlBtn.release.xcconfig"; path = "Pods/Target Support Files/Pods-controlBtn/Pods-controlBtn.release.xcconfig"; sourceTree = "<group>"; };
+		3EFFCC0E32F14459A7C9BB6F /* Pods-controlBtnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-controlBtnTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-controlBtnTests/Pods-controlBtnTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EE8BB6139EB945E11F33351 /* libPods-controlBtnUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-controlBtnUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		632CD6CCE00A8FCC80198187 /* Pods-controlBtnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-controlBtnUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-controlBtnUITests/Pods-controlBtnUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BF637AB05A2FB8C550F7B15 /* libPods-controlBtnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-controlBtnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832B90A664A082987D19F80A /* Pods-controlBtnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-controlBtnUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-controlBtnUITests/Pods-controlBtnUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AC3100DA1E1020FD00D71029 /* controlBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = controlBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3100DE1E1020FD00D71029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC3100E01E1020FD00D71029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +109,9 @@
 		AC3101331E103B2C00D71029 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		ACD397A11E138A7C004ED601 /* HMVolumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMVolumeView.h; sourceTree = "<group>"; };
 		ACD397A21E138A7C004ED601 /* HMVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMVolumeView.m; sourceTree = "<group>"; };
+		DEF19A3FF816D82492AFFDDD /* libPods-controlBtn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-controlBtn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9894B0225388BAA2F38132A /* Pods-controlBtn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-controlBtn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-controlBtn/Pods-controlBtn.debug.xcconfig"; sourceTree = "<group>"; };
+		F2C27255E8F92FB25B7259C9 /* Pods-controlBtnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-controlBtnTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-controlBtnTests/Pods-controlBtnTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8224C9A035132496DBA4B518 /* libPods-controlBtn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842C13E28EC402B8F1FA8EB5 /* libPods-controlBtnTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,12 +135,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC424A5D4E69CA39AEB83E7E /* libPods-controlBtnUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		165228BF0768858A01A05187 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9894B0225388BAA2F38132A /* Pods-controlBtn.debug.xcconfig */,
+				338A3D5520E4652822DAC779 /* Pods-controlBtn.release.xcconfig */,
+				F2C27255E8F92FB25B7259C9 /* Pods-controlBtnTests.debug.xcconfig */,
+				3EFFCC0E32F14459A7C9BB6F /* Pods-controlBtnTests.release.xcconfig */,
+				632CD6CCE00A8FCC80198187 /* Pods-controlBtnUITests.debug.xcconfig */,
+				832B90A664A082987D19F80A /* Pods-controlBtnUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC3100D11E1020FD00D71029 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +162,8 @@
 				AC3100F61E1020FD00D71029 /* controlBtnTests */,
 				AC3101011E1020FD00D71029 /* controlBtnUITests */,
 				AC3100DB1E1020FD00D71029 /* Products */,
+				165228BF0768858A01A05187 /* Pods */,
+				AD1027A7CCC23FE4759698AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +261,16 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		AD1027A7CCC23FE4759698AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF19A3FF816D82492AFFDDD /* libPods-controlBtn.a */,
+				7BF637AB05A2FB8C550F7B15 /* libPods-controlBtnTests.a */,
+				4EE8BB6139EB945E11F33351 /* libPods-controlBtnUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3101071E1020FD00D71029 /* Build configuration list for PBXNativeTarget "controlBtn" */;
 			buildPhases = (
+				A81535E6E6900970F942ABFE /* [CP] Check Pods Manifest.lock */,
 				AC3100D61E1020FD00D71029 /* Sources */,
 				AC3100D71E1020FD00D71029 /* Frameworks */,
 				AC3100D81E1020FD00D71029 /* Resources */,
+				A6B595079943A1D9AE1CCFFF /* [CP] Embed Pods Frameworks */,
+				5D90D7614D9AAC5CADBA1A19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC31010A1E1020FD00D71029 /* Build configuration list for PBXNativeTarget "controlBtnTests" */;
 			buildPhases = (
+				E0481307493E96ED0F6A10AD /* [CP] Check Pods Manifest.lock */,
 				AC3100EF1E1020FD00D71029 /* Sources */,
 				AC3100F01E1020FD00D71029 /* Frameworks */,
 				AC3100F11E1020FD00D71029 /* Resources */,
+				223BE8AFB2B1854188D17A74 /* [CP] Embed Pods Frameworks */,
+				A8102E9A4E811B88BB8AD7BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC31010D1E1020FD00D71029 /* Build configuration list for PBXNativeTarget "controlBtnUITests" */;
 			buildPhases = (
+				13795A5F251B8B77D6FDDCD2 /* [CP] Check Pods Manifest.lock */,
 				AC3100FA1E1020FD00D71029 /* Sources */,
 				AC3100FB1E1020FD00D71029 /* Frameworks */,
 				AC3100FC1E1020FD00D71029 /* Resources */,
+				73FF86C64D3276B6B84A07C2 /* [CP] Embed Pods Frameworks */,
+				566D6F36466A695FFB58C5C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -360,6 +409,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13795A5F251B8B77D6FDDCD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		223BE8AFB2B1854188D17A74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-controlBtnTests/Pods-controlBtnTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		566D6F36466A695FFB58C5C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-controlBtnUITests/Pods-controlBtnUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D90D7614D9AAC5CADBA1A19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-controlBtn/Pods-controlBtn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73FF86C64D3276B6B84A07C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-controlBtnUITests/Pods-controlBtnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B595079943A1D9AE1CCFFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-controlBtn/Pods-controlBtn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8102E9A4E811B88BB8AD7BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-controlBtnTests/Pods-controlBtnTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81535E6E6900970F942ABFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0481307493E96ED0F6A10AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC3100D61E1020FD00D71029 /* Sources */ = {
@@ -529,6 +716,7 @@
 		};
 		AC3101081E1020FD00D71029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9894B0225388BAA2F38132A /* Pods-controlBtn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = controlBtn/Info.plist;
@@ -540,6 +728,7 @@
 		};
 		AC3101091E1020FD00D71029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338A3D5520E4652822DAC779 /* Pods-controlBtn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = controlBtn/Info.plist;
@@ -551,6 +740,7 @@
 		};
 		AC31010B1E1020FD00D71029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C27255E8F92FB25B7259C9 /* Pods-controlBtnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = controlBtnTests/Info.plist;
@@ -563,6 +753,7 @@
 		};
 		AC31010C1E1020FD00D71029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFFCC0E32F14459A7C9BB6F /* Pods-controlBtnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = controlBtnTests/Info.plist;
@@ -575,6 +766,7 @@
 		};
 		AC31010E1E1020FD00D71029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632CD6CCE00A8FCC80198187 /* Pods-controlBtnUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = controlBtnUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -586,6 +778,7 @@
 		};
 		AC31010F1E1020FD00D71029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832B90A664A082987D19F80A /* Pods-controlBtnUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = controlBtnUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
